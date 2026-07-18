@@ -1,5 +1,7 @@
 postRouter.js
 
+Multer is a middleware for Node.js/Express that handles file uploads sent through multipart/form-data
+
     const multer = require("multer");
     const upload = multer({storage:multer.memoryStorage()});
 
