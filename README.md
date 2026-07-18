@@ -30,6 +30,6 @@ postController.js
       res.send(file);
     }
 
-module.exports = {
-    createPostController
-}
+    module.exports = {
+        createPostController
+    }
