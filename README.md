@@ -30,6 +30,7 @@ postController.js
      const file = await imagekit.files.upload({
         file: await toFile(Buffer.from(req.file.buffer)),
         fileName: "Test",
+        folder: "Test-folder"
       })
       res.send(file);
     }
