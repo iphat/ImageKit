@@ -11,8 +11,11 @@ By default, an Express server cannot process files sent from the frontend using 
     module.exports = postRouter
 
 upload.single("image")         Upload one file.
+
 upload.array("images", 5)      Upload up to 5 files.
+
 upload.fields([...])           Upload multiple fields with different names.
+
 upload.none()                   Accept only text fields, no files.  
 
 
