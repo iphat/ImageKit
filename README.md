@@ -2,9 +2,9 @@ Install packages
 
     npm i multer @imagekit/nodejs
 
-By default, an Express server cannot process files sent from the frontend using multipart/form-data. We use Multer middleware to parse the incoming file data, making it available in req.file or req.files
-
 postRouter.js
+
+By default, an Express server cannot process files sent from the frontend using multipart/form-data. We use Multer middleware to parse the incoming file data, making it available in req.file or req.files
 
     const multer = require("multer");
     const upload = multer({storage:multer.memoryStorage()});
